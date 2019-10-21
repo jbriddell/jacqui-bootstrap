@@ -1,7 +1,16 @@
 // Custom variable overrides go here
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
+// Variable Overrides
+$theme-colors: (
+  "primary": #d95700
+);
 // $body-bg: black;
+$body-bg: #ededed;
+.jumbotron {
+  background-color: #ffffff !important;
+  border-top: 3px solid rgb(219, 219, 219);
+}
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
